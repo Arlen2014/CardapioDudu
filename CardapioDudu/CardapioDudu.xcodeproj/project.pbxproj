@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3E03FB1CB48DC7007ED3D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E03FA1CB48DC7007ED3D3 /* Constants.swift */; };
+		0A3E03FE1CB48EB0007ED3D3 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E03FD1CB48EB0007ED3D3 /* Products.swift */; };
+		0A3E04001CB491F0007ED3D3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E03FF1CB491F0007ED3D3 /* Database.swift */; };
+		0A3E04021CB49405007ED3D3 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E04011CB49405007ED3D3 /* ProductList.swift */; };
+		0A3E04081CB49827007ED3D3 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E04071CB49827007ED3D3 /* ProductsCell.swift */; };
+		0A3E040A1CB4B01A007ED3D3 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E04091CB4B01A007ED3D3 /* InfoController.swift */; };
 		0A9983CF1CAF31E300729748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9983CE1CAF31E300729748 /* AppDelegate.swift */; };
 		0A9983D11CAF31E300729748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9983D01CAF31E300729748 /* ViewController.swift */; };
 		0A9983D41CAF31E300729748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9983D21CAF31E300729748 /* Main.storyboard */; };
@@ -16,7 +22,7 @@
 		0A9983EF1CAF31E400729748 /* CardapioDuduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9983EE1CAF31E400729748 /* CardapioDuduUITests.swift */; };
 		0AE2B3B81CAF573B00EAE93D /* Dudu_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2B3B71CAF573B00EAE93D /* Dudu_001.png */; };
 		0AE2B3BA1CAF656700EAE93D /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2B3B91CAF656700EAE93D /* call.png */; };
-		84123527FA0C18B4C0CB0AB4 /* libPods-CardapioDudu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AED8546F72166B0E2868F8C2 /* libPods-CardapioDudu.a */; };
+		8F2B922BE3E0029398210143 /* Pods_CardapioDudu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF024404434A9B95A55EAD2 /* Pods_CardapioDudu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,18 @@
 
 /* Begin PBXFileReference section */
 		08F88BEA3AC001B6AD651CC4 /* Pods-CardapioDudu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardapioDudu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardapioDudu/Pods-CardapioDudu.debug.xcconfig"; sourceTree = "<group>"; };
+		0A3E03FA1CB48DC7007ED3D3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0A3E03FD1CB48EB0007ED3D3 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		0A3E03FF1CB491F0007ED3D3 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		0A3E04011CB49405007ED3D3 /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		0A3E04071CB49827007ED3D3 /* ProductsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		0A3E04091CB4B01A007ED3D3 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		0A7AE3561CB0CAFC0009EE82 /* libFirebase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirebase.a; path = "../../../../Library/Developer/Xcode/DerivedData/CardapioDudu-aaeidakrthoreoccubybucivdavs/Build/Products/Debug-iphonesimulator/libFirebase.a"; sourceTree = "<group>"; };
+		0A7AE3581CB0CBD70009EE82 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		0A7AE35A1CB0CBE40009EE82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0A7AE35C1CB0CBEB0009EE82 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A7AE35E1CB0CBF10009EE82 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A7AE3601CB0CBF80009EE82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0A9983CB1CAF31E300729748 /* CardapioDudu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardapioDudu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9983CE1CAF31E300729748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9983D01CAF31E300729748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +71,8 @@
 		0A9983F01CAF31E400729748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AE2B3B71CAF573B00EAE93D /* Dudu_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dudu_001.png; sourceTree = "<group>"; };
 		0AE2B3B91CAF656700EAE93D /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		3DF024404434A9B95A55EAD2 /* Pods_CardapioDudu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardapioDudu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7086261F1F973827D6303EC8 /* Pods-CardapioDudu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardapioDudu.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardapioDudu/Pods-CardapioDudu.release.xcconfig"; sourceTree = "<group>"; };
-		AED8546F72166B0E2868F8C2 /* libPods-CardapioDudu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardapioDudu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84123527FA0C18B4C0CB0AB4 /* libPods-CardapioDudu.a in Frameworks */,
+				8F2B922BE3E0029398210143 /* Pods_CardapioDudu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3E03F81CB48D9F007ED3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E03FD1CB48EB0007ED3D3 /* Products.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A3E03F91CB48DA8007ED3D3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E03FF1CB491F0007ED3D3 /* Database.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		0A3E03FC1CB48E85007ED3D3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E03FA1CB48DC7007ED3D3 /* Constants.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		0A3E04031CB49418007ED3D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E04011CB49405007ED3D3 /* ProductList.swift */,
+				0A3E04091CB4B01A007ED3D3 /* InfoController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0A3E04061CB497AA007ED3D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E04071CB49827007ED3D3 /* ProductsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		0A9983C21CAF31E300729748 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +167,12 @@
 		0A9983CD1CAF31E300729748 /* CardapioDudu */ = {
 			isa = PBXGroup;
 			children = (
-				0AE2B3B61CAF571B00EAE93D /* Suporte */,
+				0A3E04061CB497AA007ED3D3 /* View */,
+				0A3E04031CB49418007ED3D3 /* Controller */,
+				0A3E03FC1CB48E85007ED3D3 /* Utility */,
+				0A3E03F91CB48DA8007ED3D3 /* Support */,
+				0A3E03F81CB48D9F007ED3D3 /* Model */,
+				0AE2B3B61CAF571B00EAE93D /* Image */,
 				0A9983CE1CAF31E300729748 /* AppDelegate.swift */,
 				0A9983D01CAF31E300729748 /* ViewController.swift */,
 				0A9983D21CAF31E300729748 /* Main.storyboard */,
@@ -137,13 +201,13 @@
 			path = CardapioDuduUITests;
 			sourceTree = "<group>";
 		};
-		0AE2B3B61CAF571B00EAE93D /* Suporte */ = {
+		0AE2B3B61CAF571B00EAE93D /* Image */ = {
 			isa = PBXGroup;
 			children = (
 				0AE2B3B91CAF656700EAE93D /* call.png */,
 				0AE2B3B71CAF573B00EAE93D /* Dudu_001.png */,
 			);
-			name = Suporte;
+			name = Image;
 			sourceTree = "<group>";
 		};
 		77240230316184373B7F56DD /* Pods */ = {
@@ -158,7 +222,13 @@
 		DC1DFE06CBECC1D855B6E152 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AED8546F72166B0E2868F8C2 /* libPods-CardapioDudu.a */,
+				0A7AE3601CB0CBF80009EE82 /* SystemConfiguration.framework */,
+				0A7AE35E1CB0CBF10009EE82 /* Security.framework */,
+				0A7AE35C1CB0CBEB0009EE82 /* CFNetwork.framework */,
+				0A7AE35A1CB0CBE40009EE82 /* libc++.tbd */,
+				0A7AE3581CB0CBD70009EE82 /* libicucore.tbd */,
+				0A7AE3561CB0CAFC0009EE82 /* libFirebase.a */,
+				3DF024404434A9B95A55EAD2 /* Pods_CardapioDudu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -350,8 +420,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3E04081CB49827007ED3D3 /* ProductsCell.swift in Sources */,
 				0A9983D11CAF31E300729748 /* ViewController.swift in Sources */,
+				0A3E03FE1CB48EB0007ED3D3 /* Products.swift in Sources */,
 				0A9983CF1CAF31E300729748 /* AppDelegate.swift in Sources */,
+				0A3E04021CB49405007ED3D3 /* ProductList.swift in Sources */,
+				0A3E04001CB491F0007ED3D3 /* Database.swift in Sources */,
+				0A3E03FB1CB48DC7007ED3D3 /* Constants.swift in Sources */,
+				0A3E040A1CB4B01A007ED3D3 /* InfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

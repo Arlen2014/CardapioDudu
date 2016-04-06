@@ -1,0 +1,6 @@
+framework module Pods_CardapioDudu {
+  umbrella header "Pods-CardapioDudu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,28 @@
 //
 
 import UIKit
+import Firebase
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+    
+    let diretorio = "https://cardapiolanche.firebaseio.com/Lanches"
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let myRootRef = Firebase(url:diretorio)
+        
+        myRootRef.observeEventType(.Value, withBlock: {
+            snapshot in
+            print("\(snapshot.key) -> \(snapshot.value)")
+        })
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

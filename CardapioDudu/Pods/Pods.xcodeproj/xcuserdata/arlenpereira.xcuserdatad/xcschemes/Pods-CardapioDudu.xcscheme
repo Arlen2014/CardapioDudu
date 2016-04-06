@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E384CC2C10D506169E07BC51'
+               BlueprintIdentifier = '9F1500497B0B17082E103AE7'
                BlueprintName = 'Pods-CardapioDudu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-CardapioDudu.a'>
+               BuildableName = 'Pods_CardapioDudu.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
